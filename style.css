@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    margin-top: 10%;
+    
+}
+
+.container{
+    border: 5px solid gainsboro;
+    padding: 15px 15px;
+    background-color: gray;
+
+}
+
+#result{
+    width: 98%;
+    height: 40px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    padding-top: 15px;
+}
+
+.buttons{
+    
+}
+.number{
+    font-size: 24px;
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.number:hover{
+    background-color: gray;
+    color: w;
+}
+
+
+.operator{
+    font-size: 24px;
+    padding: 5px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+
+}
+.operator:hover{
+    background-color: white;
+    color: black;
+}
+
+#clear{
+    background-color: red;
+    color: white;
+    padding-left: 28px;
+}
+
+#clear:hover{
+    background-color: white;
+    color: black;
+}
+
+#minus{
+    padding-left: 35px;
+}
